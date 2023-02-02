@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+@import url(header.css);
+@import url(banner.css);
+@import url(starwars.css);
+
+:root{
+    --azul: #2A7AE4;
+    --azul-claro: #EAF2FD;
+    --cinza: #464646;
+    --branco: #FFFFFF;
+}
+
+*{
+    font-family: 'Raleway', sans-serif;
+    color: var(--cinza);
+}

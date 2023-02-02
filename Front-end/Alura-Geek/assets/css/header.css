@@ -1,0 +1,14 @@
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho__link{
+    text-decoration: none;
+    color: var(--azul);
+    font-weight: 600; 
+    border: 1px solid var(--azul);
+    padding: 0.8rem 3rem;
+}
