@@ -33,3 +33,10 @@
     padding: 1rem 1.5rem;
     
 }
+
+@media screen and (min-width: 720px) {
+    
+    .banner__titulo{
+        font-size: 2rem;
+    }
+}

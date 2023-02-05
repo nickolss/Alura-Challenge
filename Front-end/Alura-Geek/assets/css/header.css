@@ -1,9 +1,13 @@
 .cabecalho{
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+}
+
+.cabecalho__pesquisa{
+    display: none;
 }
 
 .cabecalho__link{
@@ -12,4 +16,27 @@
     font-weight: 600; 
     border: 1px solid var(--azul);
     padding: 0.8rem 3rem;
+}
+
+.cabecalho__img{
+    width: 110px;
+}
+
+@media screen and (min-width: 720px) {
+    .cabecalho__lupa{
+        display: none;
+    }
+    
+    .cabecalho__link{
+        order: 1;
+    }
+
+    .cabecalho__pesquisa{
+        display: inline-block;
+        border: none;
+        border-radius: 20px;
+        padding: 0.5rem 2rem;
+        background-color: var(--cinza-claro);
+        margin-left: -5rem;
+    }
 }

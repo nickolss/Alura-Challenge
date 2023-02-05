@@ -47,3 +47,9 @@
     text-decoration: none;
     color: var(--azul);
 }
+
+@media screen and (min-width: 720px) {
+    .cards{
+        display: flex;
+    }
+}

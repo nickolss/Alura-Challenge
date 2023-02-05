@@ -64,3 +64,24 @@
     text-decoration: none;
     color: var(--azul);
 }
+
+@media screen and (min-width: 720px) {
+    .rodape{
+        padding-top: 1rem;
+    }
+    
+    .rodape__conteudo{
+        display: grid;
+        grid-template-columns: 35% auto;
+    }
+
+    .rodape__informacoes{
+        text-align: left;
+        padding: 0.5rem 1rem;
+        line-height: 3rem;
+    }
+
+    .rodape__criador{
+        padding: 2rem;
+    }
+}
