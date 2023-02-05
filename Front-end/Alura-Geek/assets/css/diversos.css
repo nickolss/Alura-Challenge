@@ -1,0 +1,5 @@
+.diversos__conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

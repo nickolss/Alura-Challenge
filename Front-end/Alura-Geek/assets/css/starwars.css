@@ -1,0 +1,49 @@
+.star-wars__conteudo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo__titulo{
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.conteudo__link{
+    font-weight: 700;
+    color: var(--azul);
+    margin-right: 10px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 0.5rem;
+    justify-content: space-between;
+}
+
+.cards__produto{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+    line-height: 1.5rem;
+}
+
+.produto__preco, .produto__link{
+    font-weight: 700;
+}
+
+.produto__nome{
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+
+.produto__preco{
+    font-size: 1.5rem;
+}
+
+.produto__link{
+    text-decoration: none;
+    color: var(--azul);
+}
