@@ -6,6 +6,7 @@
 @import url(consoles.css);
 @import url(diversos.css);
 @import url(footer.css);
+@import url(login.css);
 
 :root{
     --azul: #2A7AE4;
@@ -13,7 +14,9 @@
     --cinza: #464646;
     --cinza-claro:#F5F5F5;
     --branco: #FFFFFF;
+    --cor-placeholder:#A2A2A2;
 }
+
 
 *{
     font-family: 'Raleway', sans-serif;

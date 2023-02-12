@@ -1,0 +1,45 @@
+.sessao{
+    padding: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinza-claro);
+}
+
+.sessao__titulo{
+    color: var(--cinza);
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.sessao__formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sessao__campo{
+    border: none;
+    padding: 0.5rem 3rem;
+}
+
+.sessao__campo::placeholder{
+    color: var(--cor-placeholder);
+    font-weight: 400;
+}
+
+.sessao__enviar{
+    border: none;
+    padding: 0.8rem 2.2rem;
+    color: var(--branco);
+    background-color: var(--azul);
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho{
+        justify-content: flex-start;
+        margin: 0 2rem;
+    }
+}

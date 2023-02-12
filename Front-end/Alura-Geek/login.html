@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Alura Geek | Login</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__principal">
+            <a href="index.html"><img src="assets/img/mobile/Logo.png" alt="Logo da Alura Geek" class="cabecalho__img"></a>
+            <input type="text" name="pesquisa" id="pesquisa" class="cabecalho__pesquisa" placeholder="O que deseja fazer?">
+        </div>
+        <img src="assets/img/mobile/lupa.svg" alt="Pesquisar" class="cabecalho__lupa">
+    </header>
+
+    <main class="principal">
+        <section class="sessao">
+            <h2 class="sessao__titulo">Iniciar Sessão</h2>
+            <form class="sessao__formulario">
+                <input type="email" name="email" id="email" class="sessao__campo" placeholder="Escreva seu email" required pattern="^[a-zA-Z0-9._]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
+                <input type="password" name="senha" id="senha" class="sessao__campo" placeholder="Escreva sua senha" required>
+                <input type="submit" value="Entrar" class="sessao__enviar">
+            </form>
+
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__conteudo">
+            <div class="rodape__informacoes">
+                <img src="assets/img/mobile/Logo.png" class="rodape__logo">
+                <p class="informacoes__conteudo">Quem somos nós</p>
+                <p class="informacoes__conteudo">Política de privacidade</p>
+                <p class="informacoes__conteudo">Programa fidelidade</p>
+                <p class="informacoes__conteudo">Nossas lojas</p>
+                <p class="informacoes__conteudo">Quero ser franqueado</p>
+                <p class="informacoes__conteudo">Anuncie aqui</p>
+            </div>
+    
+            <div class="rodape__contato">
+                <h2 class="contato__titulo">Fale conosco</h2>
+                <form class="formularios">
+                    <input type="text" name="nome" id="nome" placeholder="Nome" class="formularios__nome">
+                <input type="text" name="mensagem" id="mensagem" placeholder="Escreva sua Mensagem" class="formularios__mensagem">
+    
+                <input type="submit" value="Enviar Mensagem" class="formularios__enviar">
+                </form>
+            </div>
+        </div>
+
+        <div class="rodape__criador">
+            <p class="criador__co">Desenvolvido por <a href="https://github.com/nickolss" class="criador__link">Nickolas Maia</a> 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
