@@ -31,12 +31,27 @@
         order: 1;
     }
 
+    .cabecalho__principal{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
     .cabecalho__pesquisa{
         display: inline-block;
         border: none;
         border-radius: 20px;
         padding: 0.5rem 2rem;
         background-color: var(--cinza-claro);
-        margin-left: -5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__principal{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
     }
 }
