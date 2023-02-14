@@ -1,0 +1,28 @@
+.administracao{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 95%;
+}
+
+.administracao__titulo{
+    font-weight: 700; 
+    font-size: 1.5rem;
+    padding: 1.5rem 0;
+}
+
+.administracao__butao{
+    padding: 1rem 0.5rem;
+    color: var(--branco); 
+    text-decoration: none;
+    background-color: var(--azul);
+}
+
+@media screen and (min-width: 720px) {
+    .administracao{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek | Adicionar Produtos</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Alura Geek | Login</title>
 </head>
 <body>
     <header class="cabecalho">
@@ -18,14 +18,20 @@
     </header>
 
     <main class="principal">
-        <section class="sessao">
-            <h2 class="sessao__titulo">Iniciar Sessão</h2>
-            <form class="sessao__formulario" action="index-administrado.html">
-                <input type="email" name="email" id="email" class="sessao__campo" placeholder="Escreva seu email" required pattern="^[a-zA-Z0-9._]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$">
-                <input type="password" name="senha" id="senha" class="sessao__campo" placeholder="Escreva sua senha" required>
-                <input type="submit" value="Entrar" class="sessao__enviar">
+        <section class="formulario">
+            <h2 class="formulario__titulo">Adicionar novo produto</h2>
+            <form class="formulario__cadastro">
+                <input type="text" name="url" id="url" placeholder="Url da Imagem" class="formulario__input">
+                <select name="categoria" id="categoria" class="formulario__input">
+                    <option value="Star Wars" class="formulario__input">Star Wars</option>
+                    <option value="Consoles" class="formulario__input">Consoles</option>
+                    <option value="Diversos" class="formulario__input">Diversos</option>
+                </select>
+                <input type="text" name="nomeProduto" id="nomeProduto" placeholder="Nome do produto" class="formulario__input">
+                <input type="number" name="precoProduto" id="precoProduto" placeholder="Preço do Produto" class="formulario__input">
+                <input type="text" name="descricao" id="descricao" placeholder="Descrição do Produto" class="formulario__input formulario__descricao">
+                <input type="submit" value="Adicionar Produto" class="formulario__enviar">
             </form>
-
         </section>
     </main>
 
