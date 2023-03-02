@@ -1,0 +1,3 @@
+.principal:not(section.banner){
+    background-image: var(--gradiente-verão);
+}
