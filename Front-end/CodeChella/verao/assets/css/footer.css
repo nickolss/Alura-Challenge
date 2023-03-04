@@ -1,0 +1,31 @@
+.rodape{
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape__imagem{
+    opacity: 1;
+    width: 100vw;
+}
+
+.rodape__texto{
+    font-weight: 500;
+    color: var(--cinza);
+    text-align: center;
+    line-height: 1.4rem;
+}
+
+.rodape__redes-sociais{
+    padding: 1rem 0;
+}
+
+.rodape__link{
+    text-decoration: none;
+}
+
+.rodape__link:visited{
+    color: var(--cinza-escuro);
+}

@@ -6,6 +6,7 @@
 @import url(banner.css);
 @import url(sobre.css);
 @import url(lineup.css);
+@import url(footer.css);
 
 :root{
     --titulos:'Calistoga', cursive;
@@ -19,9 +20,13 @@
     --mostarda: #DF9010;
     --branco: #FFFFFF;
     --cinza: #444444;
+    --cinza-escuro: #2e2d2d;
 }
 
 *{
     font-family: var(--texto);
-    background-size: contain;
+}
+
+body{
+    background: var(--gradiente-verão);
 }

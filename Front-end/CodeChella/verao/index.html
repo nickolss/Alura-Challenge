@@ -13,6 +13,13 @@
     <header class="cabecalho">
         <img src="assets/img/logo-branca.png" class="cabecalho__logo">
         <img src="assets/img/menu.svg" alt="Menu" class="cabecalho__menu">
+
+        <nav class="cabecalho__links">
+            <a href="#" class="links__abas">A experiência</a>
+            <a href="#" class="links__abas">Mapa de Setores</a>
+            <a href="#" class="links__abas">Informações</a>
+            <a href="#" class="links__abas">Ingresso</a>
+        </nav>
     </header>
 
     <main class="principal">
@@ -21,37 +28,83 @@
         </section>
 
         <section class="sobre">
-            <img src="assets/img/pessoas-em-show.jpg" alt="Pessoas no show da CodeChella" class="sobre__imagem">
-            <h2 class="sobre__titulo"> &lt; 11 e 12 de Março &gt; Aluródromo de São Paulo</h2>
-            <p class="sobre__texto">Hora de programar nossa memória com novas lembranças! Uma nova experiência sobre música, linguagens e, claro, tecnologia! Somos um festival diverso, com vários artistas e referências. Divirta-se!</p>
-            <a href="#" class="sobre__botao">Comprar ingresso! <img src="assets/img/ingressso.svg" class="botao__imagem"></a>
+            <picture>
+                <source srcset="assets/img/pessoas-em-show--m.jpg" media="(min-width: 720px)">
+                <img src="assets/img/pessoas-em-show.jpg" class="sobre__imagem">
+            </picture>
+
+
+            <div class="sobre__conteudo">
+                <h2 class="sobre__titulo"> &lt; 11 e 12 de Março &gt; Aluródromo de São Paulo</h2>
+                <p class="sobre__texto">Hora de programar nossa memória com novas lembranças! Uma nova experiência sobre música, linguagens e, claro, tecnologia! Somos um festival diverso, com vários artistas e referências. Divirta-se!</p>
+                <a href="#" class="sobre__botao">Comprar ingresso! <img src="assets/img/ingressso.svg" class="botao__imagem"></a>
+            </div>
         </section>
 
         <section class="lineup">
             <h2 class="lineup__titulo">/Line-Up/</h2>
 
-            <section class="lineup1">
-                <button class="lineup__botao">DOMINGO 	&lt;12/03&gt;	&lt;/12	&gt;</button>
-                <p class="lineup__cantor-princ">System of a DOM</p>
-                <p class="lineup__cantor-sec">Python Maiden</p>
-                <p class="lineup__cantor-sec">Apollo Client 2001</p>
-                <p class="lineup__cantor-sec">Bon Java</p>
-                <p class="lineup__cantor-sec">NickCallback</p>
-                <p class="lineup__cantor-terc">Linkin Promises</p>
-                <p class="lineup__cantor-terc">Fullstack Fighters</p>
-                <p class="lineup__cantor-terc">Papa React</p>
-                <p class="lineup__cantor-terc">Angular in Chains</p>
-                <p class="lineup__cantor-quart">Agnostic Front-end</p>
-                <p class="lineup__cantor-quart">SlipkNode</p>
-                <p class="lineup__cantor-quart">Pink Flutter</p>
-                <p class="lineup__cantor-quart">Kiss</p>
+            <section class="lineup">
+                <button class="lineup__botao">SÁBADO 	&lt;11/03&gt;</button>
+                <div class="bandas">
+                    <p class="bandas__cantor-princ">System of a DOM</p>
+                    <p class="bandas__cantor-sec">Python Maiden</p>
+                    <p class="bandas__cantor-sec">Apollo Client 2001</p>
+                    <p class="bandas__cantor-sec">Bon Java</p>
+                    <p class="bandas__cantor-sec">NickCallback</p>
+                    <p class="bandas__cantor-terc">Linkin Promises</p>
+                    <p class="bandas__cantor-terc">Fullstack Fighters</p>
+                    <p class="bandas__cantor-terc">Papa React</p>
+                    <p class="bandas__cantor-terc">Angular in Chains</p>
+                    <p class="bandas__cantor-quart">Agnostic Front-end</p>
+                    <p class="bandas__cantor-quart">SlipkNode</p>
+                    <p class="bandas__cantor-quart">Pink Flutter</p>
+                    <p class="bandas__cantor-quart">Kiss</p>
+                </div>
+            </section>
+
+            <section class="lineup">
+                <button class="lineup__botao">DOMINGO 	&lt;12/03&gt;</button>
+                <div class="bandas">
+                    <p class="bandas__cantor-princ">Lana Del Ploy</p>
+                    <p class="bandas__cantor-sec">Dua Lib</p>
+                    <p class="bandas__cantor-sec">The Backnd</p>
+                    <p class="bandas__cantor-sec">CSS Styles</p>
+                    <p class="bandas__cantor-sec">ArrayAna Grande</p>
+                    <p class="bandas__cantor-sec">DJ Query</p>
+                    <p class="bandas__cantor-terc">Miley Cypress</p>
+                    <p class="bandas__cantor-terc">The Bootstrap Boys</p>
+                    <p class="bandas__cantor-terc">Json Derulo</p>
+                    <p class="bandas__cantor-terc">CloudPlay</p>
+                    <p class="bandas__cantor-terc">Dev Lovato</p>
+                    <p class="bandas__cantor-quart">Kylie MiLOG</p>
+                    <p class="bandas__cantor-quart">Jenkins Brothers</p>
+                </div>
             </section>
         </section>
 
     </main>
 
     <footer class="rodape">
+        <picture>
+            <source srcset="assets/img/meninas-m.jpg" media="(min-width: 720px)">
+            <source srcset="assets/img/meninas-g.jpg" media="(min-width: 1024px)">
+            <img src="assets/img/meninas-p.jpg" class="rodape__imagem">
+        </picture>
 
+        
+        <img src="assets/img/logo footer.svg" class="rodape__logo">
+
+        <p class="rodape__texto">Acesse nossas redes:</p>
+
+        <div class="rodape__redes-sociais">
+            <img src="assets/img/whatsapp.svg" alt="Nosso Whatsapp" class="redes-sociais__imagens">
+            <img src="assets/img/twitch.svg" alt="Nossa Twitch" class="redes-sociais__imagens">
+            <img src="assets/img/instagram.svg" alt="Nosso instagram" class="redes-sociais__imagens">
+            <img src="assets/img/twitter.svg" alt="Nosso Twitter" class="redes-sociais__imagens">
+        </div>
+
+        <p class="rodape__texto">Desenvolvido por <a href="https://github.com/nickolss" class="rodape__link">Nickolas Maia</a>. Projeto fictício sem fins comerciais.</p>
     </footer>
 </body>
 </html>

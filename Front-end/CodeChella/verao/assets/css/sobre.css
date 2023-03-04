@@ -40,3 +40,20 @@
     background-color: var(--azul-escuro);
     box-shadow: 4px 4px 0px #444444;
 }
+
+@media screen and (min-width: 1024px) {
+    .sobre{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1.5rem 5rem;
+    }
+
+    .sobre__conteudo{
+        margin: 0 2rem;
+    }
+
+    .sobre__texto{
+        text-align: center;
+    }
+}

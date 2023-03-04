@@ -19,3 +19,60 @@
     border: none;
     padding: 1rem 2.5rem;
 }
+
+.lineup{
+    color: var(--cinza);
+    line-height: 2rem;
+}
+
+.bandas__cantor-princ{
+    margin: 1rem 0;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.bandas__cantor-sec{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.bandas__cantor-terc{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.bandas__cantor-quart{
+    font-weight: 500;
+
+}
+
+@media screen and (min-width: 720px) {
+    .bandas{
+        display: grid;
+        grid-template-columns: 25% 25%;
+        justify-content: center;
+    }
+
+    .bandas__cantor-princ{
+        grid-column: span 2;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .bandas{
+        margin: auto;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
+    .bandas__cantor-princ{
+        grid-column: span 4;
+    }
+
+    .bandas__cantor-sec{
+        padding: 0 0.5rem;
+    }
+}

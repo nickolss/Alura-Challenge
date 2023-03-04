@@ -8,3 +8,42 @@
 .cabecalho__logo{
     color: var(--branco);
 }
+
+.links__abas{
+    display: none;
+}
+
+@media screen and (min-width: 720px) {
+    .cabecalho__menu{
+        display: none;
+    }
+
+    .cabecalho{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecalho__links{
+        display: flex;
+    }
+
+    .links__abas{
+        display: block;
+        text-decoration: none;
+        color: var(--branco);
+        padding: 1.5rem 0;
+        margin: 0 3rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cabecalho__links{
+        display: flex;
+    }
+}
