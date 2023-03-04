@@ -12,6 +12,7 @@
     --titulos:'Calistoga', cursive;
     --texto: 'Raleway', sans-serif;
 
+    /*TEMA DE VERÃO*/
     --gradiente-verão: linear-gradient(180deg, #BFDAE6 0%, #FCF0DD 50%, #FACF9D 100%);
     --azul-escuro: #2E7BA2;
     --azul-claro: #C8DEEF;
@@ -21,12 +22,29 @@
     --branco: #FFFFFF;
     --cinza: #444444;
     --cinza-escuro: #2e2d2d;
+
+    /*TEMA BOREAL*/
+    --gradiente-boreal: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+    --azul-boreal: #304968;
+    --verde: #36C1A0; 
+    --lilas: #B6BCFF;
+    --roxo-boreal: #4650BD;
+    --verde-escuro: #008364;
 }
 
 *{
     font-family: var(--texto);
 }
 
-body{
-    background: var(--gradiente-verão);
+@media (prefers-color-scheme: light) {
+    body{
+        background: var(--gradiente-verão);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body{
+        background: var(--gradiente-boreal);
+        color: var(--branco);
+    }
 }

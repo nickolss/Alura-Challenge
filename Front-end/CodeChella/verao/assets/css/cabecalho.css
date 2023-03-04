@@ -1,8 +1,19 @@
 .cabecalho{
-    background-color: var(--azul-escuro);
     display: flex;
     justify-content: space-around;
     padding: 1.5rem 0;
+}
+
+@media (prefers-color-scheme: light) {
+    .cabecalho{
+        background-color: var(--azul-escuro);
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    .cabecalho{
+        background-color: var(--roxo-boreal);
+    }
 }
 
 .cabecalho__logo{
