@@ -4,10 +4,21 @@
 
 .lineup__titulo{
     font-size: 2.5rem;
-    color: var(--cinza);
     font-family: var(--titulos);
     font-weight: 400;
     padding: 2rem 0;
+}
+
+@media (prefers-color-scheme: light){
+    .lineup__titulo{
+        color: var(--cinza);
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    .lineup__titulo{
+        color: var(--branco);
+    }
 }
 
 .lineup__botao{
@@ -15,16 +26,37 @@
     font-weight: 400;
     font-size: 1rem;
     color: var(--branco);
-    background-color: var(--mostarda);
+    
     border: none;
     padding: 1rem 2.5rem;
 }
 
+@media (prefers-color-scheme: light){
+    .lineup__botao{
+        background-color: var(--mostarda);
+    }
+}
 
+@media (prefers-color-scheme: dark){
+    .lineup__botao{
+        background-color: var(--verde-escuro);
+    }
+}
 
 .lineup{
-    color: var(--cinza);
     line-height: 2rem;
+}
+
+@media (prefers-color-scheme: light){
+    .lineup__titulo{
+        color: var(--cinza);
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    .lineup{
+        color: var(--branco);
+    }
 }
 
 .bandas__cantor-princ{

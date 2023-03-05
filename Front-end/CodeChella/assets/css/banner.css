@@ -1,0 +1,48 @@
+.banner{
+    
+    background-size: cover;
+    padding: 3rem;
+}
+
+@media (prefers-color-scheme: light){
+    .banner{
+        background-image: url(../img/carrossel.jpg);
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    .banner{
+        background-image: url(../img/aurora-boreal.jpg);
+    }
+}
+
+.banner__titulo{
+    font-family: var(--titulos);
+    font-weight: 400;
+    font-size: 2rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+@media (prefers-color-scheme: light){
+    .banner__titulo{
+        color: var(--cinza);
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    .banner__titulo{
+        color: var(--branco);
+    }
+
+    .sobre__imagem{
+        content: url(../img/musicos-p.jpg);
+        border-radius: 30px;
+    }
+
+    @media screen and (min-width: 720px) {
+        .sobre__imagem{
+            content: url(../img/musicos-m.jpg);
+        }
+    }
+}
