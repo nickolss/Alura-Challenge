@@ -72,6 +72,18 @@
     text-decoration: none;
 }
 
+@media (prefers-color-scheme: light){
+    .rodape__link{
+        color: var(--branco);
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    .rodape__link{
+        color: var(--cinza);
+    }
+}
+
 .rodape__link:visited{
     color: var(--cinza-escuro);
 }
